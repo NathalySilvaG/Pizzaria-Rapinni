@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos -Pizzaria Rapinni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><img src="img/lolgo-pizzaria-removebg-preview (1) (1).png" 200px 200px alt=""></h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="bebidas.html">Bebidas</a>
+            <a href="Cardápio.html">Cardápio</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="pedidos.html">Pedidos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main class="pedidos">
+        <h2>Faça seu Pedido</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+            <label for="pizza">Escolha sua Pizza:</label>
+            <select id="pizza" name="pizza" required>
+                <option value="margherita">Margherita</option>
+                <option value="calabresa">Calabresa</option>
+                <option value="quatro-queijos">Quatro Queijos</option>
+                <option value="portuguesa">Portuguesa</option>
+            </select>
+            <label for="pizza">Escolha sua Bebida:</label>
+            <select id="pizza" name="pizza" required>
+                <option value="Refris">Refri</option>
+                <option value="Sucos">Suco Natural</option>
+                <option value="Vinhos">Vinho</option>
+                <option value="Cerveja">Cerveja</option>
+                <option value="Agua">Agua</option>
+            </select>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pizzaria Rapinni</p>
+    </footer>
+</body>
+</html>
